@@ -1,6 +1,6 @@
 class LazyInitializedSingleton{
    static LazyInitializedSingleton _instance;
-   LazyInitializedSingleton._internal(){}
+   LazyInitializedSingleton._internal();
 
   static LazyInitializedSingleton getInstance(){
     if(_instance==null){
@@ -8,8 +8,7 @@ class LazyInitializedSingleton{
     }
     return _instance;
   }
-
-  
-
 }
+
+
 
