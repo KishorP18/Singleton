@@ -4,16 +4,10 @@ class FactorySingleton{
   factory FactorySingleton(){
     return _instance;
   }
-   static int count=0;
-  FactorySingleton._internal(){
-    count++;
-    print(count);
-  }
+  
+FactorySingleton._internal();
 
 }
 
-void main(){
-   FactorySingleton one=FactorySingleton();
-   FactorySingleton two=FactorySingleton();
 
-}
+
